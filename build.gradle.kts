@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.stleary:JSON-java:20240303")
+    implementation("org.json:json:20240303")
     implementation("net.objecthunter:exp4j:0.4.8")
     implementation(project(":core"))
     implementation(project(":version"))
